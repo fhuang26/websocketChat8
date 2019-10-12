@@ -2,7 +2,7 @@
 
 * Five unit tests are developed to test enter, chat, and logout. Tests 1-4 are developed to cover enter and chat, using MockMvc. Test 5 tests logout by using HtmlUnit. For example in Test 5 logout(), 
 HtmlPage pageChat = webClient.getPage("http://localhost:8080/chat?username=Jack");
-A running server is expected for Test 5 to run properly. Tests 1-4 using MockMvc do not need that.
+A running Chat Room server is expected for Test 5 to run properly. Tests 1-4 using MockMvc do not need that.
 
 * In IntelliJ terminal, we can do "mvn spring-boot:run". When the Chat Room server is running and listening to port 8080, in IntelliJ Maven -> Lifecycle, we can do multiple clean, test, or package. It takes about 39 sec to run 5 tests. Most runtime of 5 tests is consumed by Test 5, using HtmlUnit. Both test and package in Maven Lifecycle pass 5 unit tests to lead to [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0. A screenshot of test result is saved.
 
