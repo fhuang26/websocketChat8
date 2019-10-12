@@ -4,6 +4,6 @@
 HtmlPage pageChat = webClient.getPage("http://localhost:8080/chat?username=Jack");
 A running Chat Room server is expected for Test 5 to run properly. Tests 1-4 using MockMvc do not need that, and they run faster than Test 5 using HtmlUnit.
 
-* In IntelliJ terminal, we can do "mvn spring-boot:run" to start the server. When the Chat Room server is running and listening to port 8080, in IntelliJ Maven -> Lifecycle, we can do multiple clean, test, or package. It takes about 39 sec to run 5 tests. Most runtime of 5 tests is consumed by Test 5, using HtmlUnit. Both test and package in Maven Lifecycle pass 5 unit tests to lead to [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0. A screenshot of test result is saved.
+* In IntelliJ terminal, we can do "mvn spring-boot:run" to start the server. When the Chat Room server is running and listening to port 8080, in IntelliJ Maven -> Lifecycle, we can do multiple clean, test, or package. It takes about 39 sec to run 5 tests. Most runtime of 5 tests is consumed by Test 5, using HtmlUnit. Both test and package in Maven Lifecycle pass 5 unit tests to lead to "[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0". A screenshot of test result is saved.
 
 * Please see a recording "chatting online" and a screenshot "package passes 5 tests".
