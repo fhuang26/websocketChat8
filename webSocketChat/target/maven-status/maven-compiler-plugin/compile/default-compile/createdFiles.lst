@@ -1,0 +1,4 @@
+com\example\webSocketChat\config\WebSocketConfig.class
+com\example\webSocketChat\WebSocketChatApplication.class
+com\example\webSocketChat\controller\WebSocketChatServer.class
+com\example\webSocketChat\model\Message.class
